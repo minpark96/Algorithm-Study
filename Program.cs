@@ -6,6 +6,9 @@ namespace Algorithm
     {
         static void Main(string[] args)
         {
+            Board board = new Board();
+            board.Initialize();
+
             Console.CursorVisible = false; // 커서 감추기
 
             const int WAIT_TICK = 1000 / 30; // 단위가 밀리sec 이므로, 30 프레임
